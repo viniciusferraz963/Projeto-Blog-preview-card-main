@@ -1,0 +1,88 @@
+/*Configurações Globais*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Configurações do corpo*/
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/**/
+
+main {
+    background-color: white;
+    width: 375px;
+    margin-top: 200px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 2px black;
+    border: 1px solid black;
+    height: 100%;
+}
+
+/*Imagem*/
+
+.img1 {
+    margin: 19px;
+}
+
+/**/
+
+.sub {
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    width: 85px;
+    margin-left: 20px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+.span {
+    margin: 20px;
+    font-weight: 600;
+}
+
+h2 {
+    margin: 20px;
+    text-shadow: 1px 0px 0px black;
+}
+
+h2:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+    text-shadow: none;
+}
+
+p {
+    color: hsl(0, 0%, 42%);
+    margin: 20px;
+}
+
+.icon{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 20px;
+}
+
+span {
+    margin: 15px;
+    font-weight: 800;
+    font-size: 18px;
+    text-shadow: 0px 0px 1px black;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+}
